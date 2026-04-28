@@ -91,7 +91,7 @@ Lua is easy to learn even for inexperienced programmers, and it will let you eas
 
 If you don't know how to use github (used for submitting and reviewing code contributions), someone on IRC or the dev forum can create a pull/merge request for you, since learning github can be a daunting task for a beginner.
 
-Toget started, see [Scripting and Mission Creation](Scripting_and_Mission_Creation "wikilink"), or just dig into the code we have. `data/modules/DonateToCranks` is a simple, easy to read Lua script that implements the donation charity on the BBS. For a full mission `data/modules/DeliverPackage.lua` is recommended.
+To get started, see [Scripting and Mission Creation](Scripting_and_Mission_Creation "wikilink"), or just dig into the code we have. `data/modules/DonateToCranks` is a simple, easy to read Lua script that implements the donation charity on the BBS. For a full mission `data/modules/DeliverPackage.lua` is recommended.
 
 Here are some ideas for missions that can be implemented with the [Lua API](https://codedoc.pioneerspacesim.net/) we have today:
 
