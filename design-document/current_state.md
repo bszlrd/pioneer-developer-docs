@@ -16,7 +16,7 @@ Direct brachistocronne (aka point and burn) travel is the default, with a simple
 
 Star systems are 1:1 scale, and the player can seamlessly travel from a surface starport to the outskirts of the system. Conventional flight to other systems is not possible, systems are wholly separate entities in that sense, to which one jumps into using a hyperdrive.
 
-The galaxy, the star systems within and planetary bodies are procedurally generated, but it is possible to create systems by hand too. The game has a large catalog of existing real stars mostly those that are close to Sol, or are well known and bright starts further away. The player can visit these stars, just like any other.
+The galaxy, the star systems within and planetary bodies are procedurally generated, but it is possible to create systems by hand too. The game has a large catalog of existing real stars mostly those that are close to Sol, or are well known and bright stars further away. The player can visit these stars, just like any other.
 Interstellar travel is done via Hyperspace Drives; one can travel from almost anywhere to a low sun orbit of the target system.   
 
 Travel time is not instantaneous, but depends on distance and drive class. A typical jump can take several days or more and are important to factor into before accepting missions with a dead line. Range depends on ship mass and drive class, and can go up to about a hundred ly.
