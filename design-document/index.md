@@ -10,6 +10,79 @@ The primary purpose of this repository is a design document for the open source 
 
 The aim of this document is to define a vision for the game (albeit not too granular), to focus the development efforts for the team and to provide a good and welcoming starting point to aspiring contributors. It is relatively light on granular details to avoid turning contributing to Pioneer into a second job with deadlines and such nastiness.
 
+# Discussion
+
+(please add code review comments to this section on the PR for specific parts). After discussion, I'll write out the sections properly.
+
+### What kind of game Pioneer is? (big picture)
+
+##### What kind of "dream" we want to fulfill? What kind of gameplay we want to provide? Do we even want all these?
+
+- Space adventure is a given I think, but how could we be a bit more specific about it?
+
+- Combat vs Civilian matters? (we lean more towards civilian matters currently, combat is bare-bones)
+- Simulator / realism aspects vs fun? (currently it is somewhere halfway. Flight is newtonian, scale is 1:1, engines are unrealistically powerful and efficient)
+- Operating a spaceship (on what level?) (currently it is simplified. There's equipment customizations and some stats to manage, like hull heat and pressure for reentry, and weapon overheating)
+
+- Problem solving with the spaceship?
+  - I have to mention external docking with collars here :P I think that's a very important feature to have for any future ship-ship interaction
+- Interstellar and in-sys navigation?
+- Local level navigation? (docking areas, more complex station layouts, waystations, mission specific POI)
+- Meaningful choices, and tradeoffs (no point in min-maxing)
+- Systemic game with multiple interlocking parts to provide emergent gameplay?
+- What kind of jobs we want to provide to the player? What things we'd like them to be able to do?
+- Create your own fun and stories? (like E:D Fuel Rats or Colonia initiative back then). How we could facilitate this and to what extent?
+- How much the factions and their attitudes affect gameplay and progression? 
+- Text adventure aspects? (How deep that would go? See Sunless Skies/Seas for example)
+
+##### How our setting works?
+
+I put down the main points a bit more confidently here, but these are still open to discussion.
+
+- Where are we on the Hard SF  ----- Space Opera spectrum?
+  - What we want to ignore, and what aspects we would lean into?
+  - No artificial gravity (meaning tower layout and tailsitters, esp for larger ships)
+  - No FTL radio, communications is facilitated by courier ships, drone network and an asynchronized internet carried by all ships
+  - Are hyperjumps experienced by the crew, or it is time travel forwards? Both have interesting lore points.
+- Loneliness (no spacefaring alien civilizations in the galaxy, only useless ruins in some places)
+- Stagnant ascendancy in terms of scientific and engineering progress. All low hanging fruits are picked long ago, and progress is very incremental. More and more effort is needed for less and less return.
+- How mundane space travel is? (flying above cities, cozy spaceports, travel times)
+- I think it is very important, that we don't want to predict the future, but aim for an interesting and varied setting
+- I think we would benefit from a more structured galaxy in terms of inhabited systems and factions. Systems with large populations could be a bit further apart, with typical routes between them, and a waystation network. 
+- What kind of factions, superpowers and such we want?
+  - Solar Federation - an imperialist, oddly democratic/illiberal superpower. More stable, but less liberal, a bit manipulative. Societal mobility can be streamlined: part rigid, part informal, with emphasis on the freedom of the individual to bring themselves up by the bootstraps, but also stay "normal" and don't rock the boat much.
+  - Commonwealth of Independent Worlds (superpower) - a more federational, liberal union of nations. Less homogenic, more bureaucratic, idealistic but sometimes naïve. Societal mobility can be slow and unclear, but there are structures established. A lot depends on who one knows. Also a lot depends on the attitudes of a given member nation. 
+  - Haber Corporation (minor power) - ultimate corporate state to the level of satire. An ambivalence of ineptitude and effectiveness, politeness and exploitation. Short term thinking and bad coordination, lots of infighting and office politics on all levels of society. Surveillance state. Societal mobility is strictly procedural, but easily gamed.
+  - Tolan Kingdom (minor power) - a proud and snobbish, feudal society engineering project with the eyes on the very long-term. Feudal as in every means of production is owned by the king and rented out downwards. Societal mobility is procedural, but with clear paths both up and down. Reputation is very important.
+  - I think we could benefit from another superpower further away from the core bubble, and also a sprinkle of minor powers across the galaxy
+
+##### Presentation - visuals, style, audio
+
+- I think the current OPLI ships show the direction well. Ambivalence between high-tech, and a more tangible, more familiar "retro" aesthetic. We don't want to predict the future, and try for low levels of visual clutter.
+- PBR adjacent workflow would be nice  (even without a skybox based global illumination) 
+- Smarter materials would be nice (tiling, separate UVs for AO, procedural wear and tear for example)
+- Decal support for detailing would also be nice
+- The UI and HUD is generally in a serviceable state, but could benefit from additional polish. 
+  - Customizability would be good to have (HUD modes, etc)
+  - In some parts, we do have a bit of clutter, on some other parts we lack information
+- Regarding audio, I don't have much expertise, so please comment and detail anything you think is important.
+  - I do think we would benefit from some "texturality" for our foley. So more actual recordings on top of synth sfx.
+- Currently we have a mix of classical music and synth/electronic music, which might be a bit of an odd mix. But I don't have much expertise here either, and generally play with the music muted, so comments are definitely welcome here too.
+
+
+
+##### What are our reasons and motivations to contribute?
+
+I think this is also an important point, given that Pioneer is a volunteer effort. And we do want to be open and welcoming to new and returning contributors, but not always doing a good job at that.
+
+- What makes us working on Pioneer interesting or fun? What challenges we want from it? What do we want to learn and practice?
+
+
+
+---
+
+Previous dev docs, I will reword and reorganize when we tied down what we wanted. Don't yet comment these parts please.
+
 ## About Pioneer
 
 [**Pioneer**](https://pioneerspacesim.net) is an open-source space adventure game, set in the Milky Way galaxy shortly after the turn of the 33rd century.
