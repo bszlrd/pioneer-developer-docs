@@ -190,7 +190,8 @@ From a **scientific perspective** there are some other important aspects, that b
 
 - No artificial gravity or antigravity. Apart from while under acceleration, or having a spin section, spacers are in freefall.
 - There is no ansible-style instantaneous FTL communication. The top speed of information is either C, or the same as the fastest vessel that can carry it through hyperspace. There is a well-developed asynchronous internet of sorts built on an automated hyperspace-drone network, complemented by all ship transponders also carrying large packets of data between systems.
-- Scientific progress is glacial, and gives marginal improvements over long stretches of time. All low-hanging fruits are picked, and the ones above require tremendous amounts of effort to get to. (Note, we are not saying that this is how the future will go, but imagining a world where this is the case)
+- Scientific progress is glacial, and gives marginal improvements over long stretches of time. All low-hanging fruits are picked, and the ones above require tremendous amounts of effort to get to. (Note, we are not saying that this is how the future will go, but imagining a world where this is the case).
+- FTL travel is only vaguely explained, to avoid opening any can of worms about time travel and such. The only function of the Hyperdrive is to allow travel, so the player can go to interesting places, so the less explained, the less of unintended consequences.
 
 ## Art direction
 
